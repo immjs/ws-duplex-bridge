@@ -1,0 +1,33 @@
+{
+  "name": "ws-duplex-bridge",
+  "version": "1.0.0",
+  "description": "A utility to bridge WebSockets to a duplex stream",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immjs/ws-duplex-bridge.git"
+  },
+  "keywords": [
+    "websocket",
+    "duplex",
+    "stream",
+    "bridge"
+  ],
+  "author": "Juliet WANG <immjs>",
+  "license": "Hippocratic-2.1",
+  "bugs": {
+    "url": "https://github.com/immjs/ws-duplex-bridge/issues"
+  },
+  "homepage": "https://github.com/immjs/ws-duplex-bridge#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/ws": "^8.5.11",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
